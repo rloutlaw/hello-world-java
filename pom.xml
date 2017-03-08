@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.fabrikam.azure.appdemo</groupId>
+  <artifactId>AzureAppDemo</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>AzureAppDemo</name>
+  <dependencies>
+  </dependencies>
+<build><pluginManagement>
+<plugins>
+	<plugin>
+  	<groupId>org.eclipse.jetty</groupId>
+  	<artifactId>jetty-maven-plugin</artifactId>
+  	<version>9.3.15.v20161220</version>
+	</plugin>
+</plugins></pluginManagement></build>
+</project>
