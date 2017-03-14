@@ -22,6 +22,9 @@ extlib/
 node_modules
 packages
 
+# jenkins
+jenkins/
+
 # Eclipse #
 *.pydevproject
 .project

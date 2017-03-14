@@ -10,7 +10,7 @@
   <title>Azure Samples Hello World</title>
 </head>
 <body>
-  <H1>Hello from Azure</H1>
+  <H1>Hello from Microsoft Azure!</H1>
 <div>
   Current time: <%= new Date() %>
 </div>
