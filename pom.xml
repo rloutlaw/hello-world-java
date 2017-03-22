@@ -1,9 +1,4 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-<properties>
-    <az.username>rloutlaw2517</az.username>
-    <az.password>h0Otho%t</az.password>
-    <az.appname>AzureAppDemo20458</az.appname>
-</properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fabrikam.azure.appdemo</groupId>
   <artifactId>AzureAppDemo</artifactId>
@@ -49,8 +44,8 @@
             </goals>
             <configuration>
               <fromFile>${basedir}/target/AzureAppDemo-0.0.1-SNAPSHOT.war</fromFile>
-              <url>ftp://waws-prod-mwh-001.ftp.azurewebsites.windows.net</url>
-              <toFile>/site/wwwroot/webapps/ROOT.war</toFile>
+              <url>${az.site}</url>
+              <toFile>webapps/ROOT.war</toFile>
               <serverId>azure-hello-world</serverId>
             </configuration>
           </execution>
